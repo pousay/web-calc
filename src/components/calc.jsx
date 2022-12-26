@@ -67,7 +67,7 @@ function Calc() {
 
     const SqrAction = () => {
         const e = eval(Result)
-        const newResult = e * e
+        const newResult = String(e * e)
         if (newResult.length <= 12) {
             setResult(r => eval(r) * eval(r))
         } else {
