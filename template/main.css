@@ -16,6 +16,7 @@ button {
 }
 
 
+
 body {
     background-color: var(--w);
     display: flex;
@@ -33,7 +34,7 @@ body.dark {
     top: 0px;
     display: flex;
     justify-content: end;
-    width: 330px;
+    width: 390px;
 }
 
 body.dark .circle {
@@ -66,6 +67,7 @@ body.dark .circle:hover {
     display: grid;
     grid-template-rows: 4fr 7fr;
 }
+
 
 body.dark .container {
     background-color: var(--blk1);
@@ -180,9 +182,13 @@ body.dark .equal:hover,
     color: #5c5c5c;
 }
 
+
+
+
+
 .box_3 {
     position: absolute;
-    left: 70px;
+    left: 80px;
     top: 0px;
 }
 
@@ -208,6 +214,9 @@ input[type="checkbox"].switch_3 {
     z-index: 1;
 }
 
+
+
+
 input[type="checkbox"].switch_3:checked+svg.checkbox .is_checked {
     opacity: 1;
     transform: translateX(0);
@@ -218,6 +227,7 @@ input[type="checkbox"].switch_3:checked+svg.checkbox .is_unchecked {
     transform: translateX(-200%);
     stroke: var(--prpl);
 }
+
 
 svg.checkbox .is_checked {
     opacity: 0;
